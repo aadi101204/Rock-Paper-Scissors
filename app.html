@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="app.css">
+    <script language="JavaScript" src="./system.js" type="text/JavaScript"></script>
+</head>
+<body> 
+    <div class="header flex-container-column">
+        <h1>Welcome to the game.ROCK.PAPER.SCISSORS</h1>
+        <h2>select one of the three options to play</h2>
+    </div>
+    <div class="game flex-container-row">
+        <button class="flex-item" onclick="option('rock')"><img src="./Assets/rock.png"></button>
+        <button class="flex-item" onclick="option('paper')"><img src="./Assets/paper.jpg"></button>
+        <button class="flex-item" onclick="option('scissors')"><img src="./Assets/scissors.jpg"></button>
+    </div>
+    <div class="result flex-container-column">
+        <img class="AIselectImage">
+        <h1 class="AIselect">the computer choice</h1>
+        <h2 class="result">Result</h2>
+    </div>
+</body>
+</html>
